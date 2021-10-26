@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*Moving the contents of the nav bar to the right*/
+ul.position {
+    padding-left: 120vh;
+}
+/*editing the project name*/
+a.pos{
+    padding-left: 40px;
+    font-size: 3vh;
+}
+.contactImg{
+    background-image: url("C:/Users/User/OneDrive/Projects/Contact/contactUs.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-top: -8px;
+    border-radius: 0px 0px 450px 0px;
+    padding: 10px;
+    border: 1px solid;
+     box-shadow: 5px 20px 20px #888888; 
+}
+
+.bigHeading{
+    color: white;
+    padding-top: 15vh;
+    font-size: 10vh;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+button.connectNow{
+    margin-left: 70vh;
+    margin-top: 12vh;
+}
+.contactBox{
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 55vh;
+    height: 75vh;
+    margin-top: 18vh;
+    box-shadow: 5px 15px 15px #888888;
+
+}
+.contactBox:hover{
+    box-shadow: 10px 25px 25px #888888;
+
+}
+
+.userImg{
+    width: 32vh;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 125px;
+    margin-left: 11.5vh;
+    margin-top: 4vh;
+}
+.userInfo{
+    text-align: center;
+    padding-top: 6vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.donate{
+    margin-left: 15vh;
+    margin-top: 4vh;
+    height: 8vh;
+    width: 25vh;
+    font-weight: 600;
+}
+nav.customize{
+    width: 100%;
+    height: 25vh;
+    margin-top: 10vh;
+}
+p.endHeading{
+    color: white;
+    padding-left: 35vh;
+    padding-top: 20vh;
+}
+.logo{
+    width: 6vh;
+    height: 5vh;
+}
