@@ -1,0 +1,108 @@
+
+/*importing different fonts from the web*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*Moving the contents of the nav bar to the right*/
+ul.position {
+    padding-left: 120vh;
+}
+/*editing the project name*/
+a.pos{
+    padding-left: 40px;
+    font-size: 3vh;
+}
+/*editing the picture else it will problem during rendering*/
+div.img{
+    background-image: url('C:/Users/User/OneDrive/Projects/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -8px;
+    border-radius: 0px 0px 450px 0px;
+    
+    padding: 10px;
+    border: 1px solid;
+     box-shadow: 5px 20px 20px #888888;
+}
+/*styling the top most heading*/
+div.firstHeading{
+   padding-top: 170px;
+   padding-left: 100px;
+   color: white;
+}
+/*editing the third line*/
+p.thirdLine{
+    font-size: 3vh;
+    font-weight: 200;
+}
+/*increasing the density or the font weight of the texts(specific)*/
+h1.weight{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*editing the rolling text*/
+.ml12 {
+    font-weight: 900;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  h2.secondHeading{
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    font-size: 35px;
+  }
+
+/*editing the small pictures*/
+img.shorts{
+    width: 600px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 1px;
+
+}
+div.adj{
+    margin-top: 50px;
+}
+h2.shortsHeading{
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+a.readMore{
+    text-decoration: none;
+}
+p.shortsText{
+    border: 3px solid black;
+    border-radius: 130px;
+    padding: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+div.shortsSection{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+/*editing the bottom most nav bar*/
+nav.customize{
+    width: 100%;
+    height: 25vh;
+}
+p.endHeading{
+    color: white;
+    padding-left: 35vh;
+    padding-top: 20vh;
+}
+.logo{
+    width: 6vh;
+    height: 5vh;
+}
